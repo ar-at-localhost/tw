@@ -70,7 +70,7 @@
       vimPlugins =
         prev.vimPlugins
         // {
-          tw = outputs.vimPlugin;
+          tw = outputs.default;
         };
     });
 
